@@ -47,5 +47,5 @@ jobs:
           build-args: |
             CADDY_VERSION=${{ steps.tag.outputs.tag }}
           tags: |
-            ghcr.io/moolex/caddy:${{ env.REL_TYPE }}
-            ghcr.io/moolex/caddy:${{ steps.tag.outputs.tag }}
+            ghcr.io/ccsnake/caddy:${{ env.REL_TYPE }}
+            ghcr.io/ccsnake/caddy:${{ steps.tag.outputs.tag }}
